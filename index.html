@@ -3,12 +3,14 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
+        <title>share|notes</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <!-- Place favicon.ico in the root directory -->
+
+        <link href='https://fonts.googleapis.com/css?family=Fredericka+the+Great|Life+Savers:400,700|Source+Sans+Pro:400,300,200,200italic,300italic,400italic,600,600italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
 
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
@@ -20,65 +22,74 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-        <header>
-            <nav>
-                <ul>
+        <header class="sticky-nav clearfix">
+            <div class= "main-logo"> <!-- logo/title -->
+                <img id="logo" src="img/logo2.png" alt="share|notes">
+            </div>
+            <nav class="clearfix">
+                <ul class="main-menu">
                     <li>get started
-                        <ul>
+                        <ul class="dropdown">
                             <li><a href="/how-it-works.html">how it works</a></li>
                             <li><a href="/create-a-note.html">create a note</a></li>
                             <li><a href="/customize-your-note.html">customize your note</a></li>
-                                <ul>
-                                    <li><a href="/share.html">share</a></li>
-                                </ul>
+                            <li><a href="/share.html">share your note</a></li>
                         </ul>
                     </li>
                     <li>about
-                        <ul>
+                        <ul class="dropdown">
                             <li><a href="/our-mission.html">our mission</a></li>
                         </ul>
                     </li>
-                    <li><a href="/contact.html">contact</a></li>
+                    <li>contact
+                        <ul class="dropdown">
+                            <li><a href="/contact.html">contact</a></li>
+                        </ul>
+                    </li>
                 </ul>
             </nav>
         </header>
 
-        <div> <!-- title block + hero -->
+        <div class="title-block"> <!-- title block + hero -->
             <h1>title heading</h1>
             <p>sub-heading. lorem ipsum dolor sit amet, choro essent usu ex, magna appetere nominati.</p>
         </div>
 
-        <div> <!-- second block w blurb + image -->
-            <h3>create personalized notes.</h3>
-            <h3>send to friends via social.</h3>
-            <h3>share, like, favorite, repeat.</h3>
-            <img src="http://indiepopmarket.com/wp_ipm/wp-content/uploads/2014/12/lisa-unicorns.png" alt="placeholder">
+        <div class="second-block clearfix"> <!-- second block w blurb + image -->
+            <div class="second-block-left">
+                <h3>create personalized notes.</h3>
+                <h3>send to friends via social.</h3>
+                <h3>share, like, favorite, repeat.</h3>
+            </div>
+            <div class="second-block-right">
+                <img src="https://blog.lecturio.de/wp-content/uploads/2015/07/work-stations-plus-espresso.jpg" alt="placeholder">
+            </div>
         </div>        
 
-        <div> <!-- third block w value stmt -->
+        <div class="third-block clearfix"> <!-- third block w value stmt -->
             <h2>instant + free</h2>
             <p>lorem ipsum dolor sit amet, choro essent usu ex, magna appetere nominati.</p>
         </div>
 
-        <div> <!-- fourth block w select an emotion -->
-            <h3>-- select an emotion to begin --</h3>
-            <ul>
-                <li><h4>birthday</h4></li>
-                <li><h4>thank you</h4></li>
-                <li><h4>support</h4></li>
-                <li><h4>congrats</h4></li>
-                <li><h4>thinking of you</h4></li>
+        <div class="fourth-block clearfix"> <!-- fourth block w select an emotion -->
+            <h2>-- select an emotion to begin --</h2>
+            <ul class="clearfix">
+                <li><h3>birthday</h3></li>
+                <li><h3>thank you</h3></li>
+                <li><h3>support</h3></li>
+                <li><h3>congrats</h3></li>
+                <li><h3>thinking of you</h3></li>
             </ul>
         </div>
 
-        <footer>
+        <footer class="clearfix">
             <p>&copy; keri mikuska, 2015</p>
-            <p>follow us on social media:
-                <ul>
-                    <li><h4>snapchat</h4></li>
-                    <li><h4>instagram</h4></li>
-                    <li><h4>facebook</h4></li>
-                    <li><h4>twitter</h4></li>
+<!--             <p>follow us on social media:
+ -->                <ul>
+                    <li>follow us:</li>
+                    <li><a href="http://instagram.com" target="_blank"><img src="img/instagram.png"></li>
+                    <li><a href="http://facebook.com" target="_blank"><img src="img/facebook.png"></li>
+                    <li><a href="http://twitter.com" target="_blank"><img src="img/twitter.png"></li>
                 </ul>
             </p>
         </footer>
