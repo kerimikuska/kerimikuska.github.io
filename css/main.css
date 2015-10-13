@@ -202,6 +202,7 @@ div.title-block {
 h1 {
     font-size: 48px;
     padding-top: 50px;
+    margin: 0;
 }
 
 .title-block p {
