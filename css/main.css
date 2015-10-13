@@ -183,10 +183,10 @@ img#logo {
     margin-left: 10px;
 }
 
-div {
+/*div {
     border: 1px solid red;
     width: 100%;
-}
+}*/
 
 .title-block, .second.block, .third-block, .fourth-block {
     clear: both;
@@ -209,7 +209,7 @@ h1 {
 }
 
 div.second-block-left {
-    text-align: left;
+    text-align: center;
     float: left;
     width: 60%;
     height: inherit;
@@ -230,6 +230,8 @@ div.second-block-right {
 .second-block img {
     height: 290px;
     margin: 4px;
+    object-fit: cover;
+
 }
 
 div.third-block {
@@ -238,6 +240,11 @@ div.third-block {
 
 h2 {
     font-size: 36px;
+}
+
+.third-block p {
+    padding-top: 30px;
+    font-size: 24px;
 }
 
 .fourth-block ul {
@@ -291,7 +298,13 @@ footer ul {
 footer li {
     float: left;
     vertical-align: middle;
+    margin-right: 10px;
 }
+
+footer img {
+    height: 20px;
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
