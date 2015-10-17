@@ -163,23 +163,23 @@ nav .active {
 
 
 
-ul.main-menu {
+ul.main-menu li {
     padding: 20px;
     margin: 2px;
 }
 
-ul.dropdown {
+/*ul.dropdown {
     display: absolute;
     width: 140px;
     padding-left: 0;
     z-index: 9999999;
-}
+}*/
 
 
 img#logo {
     float: left;
     height: 55px;
-    padding: 2.4px 0;
+    padding: 10px 0;
     margin-left: 10px;
 }
 
@@ -195,9 +195,9 @@ img#logo {
     vertical-align: center;
 }
 
-div.title-block {
+/*div.title-block {
     background-color: #E7E0F7;
-}
+}*/
 
 h1 {
     font-size: 48px;
@@ -218,7 +218,7 @@ div.second-block-left {
 
 .second-block-left h3 {
     font-weight: 300;
-    font-size: 32px;
+    font-size: 24px;
     padding: 5px;
     margin-left: 5px;
 }
@@ -232,6 +232,7 @@ div.second-block-right {
     height: 290px;
     margin: 4px;
     object-fit: cover;
+    border-radius: 16px;
 
 }
 
