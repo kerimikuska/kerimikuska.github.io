@@ -200,9 +200,13 @@ img#logo {
 }*/
 
 h1 {
-    font-size: 48px;
+    font-size: 28px;
     padding-top: 50px;
     margin: 0;
+}
+
+.title-block h1 {
+    font-size: 48px;
 }
 
 .title-block p {
