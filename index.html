@@ -22,16 +22,16 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-        <header class="sticky-nav clearfix">
-            <div class= "main-logo"> <!-- logo/title -->
-                <img id="logo" src="img/logo2.png" alt="share|notes">
-            </div>
-            <nav class="clearfix">
+        <header class="clearfix">
+            <nav class="sticky-nav-wrapper clearfix">
+                <div class= "main-logo"> <!-- logo/title -->
+                    <img id="logo" src="img/logo2.png" alt="share|notes">
+                </div>
                 <ul class="main-menu">
-                    <li><a href="#our-mission">our mission</a></li>
+                    <li><a href="#about">about</a></li>
                     <li><a href="#vote">vote!!</a></li>
-                    <li><a href="../results.html">results</a></li>
-                    <li><a href="../contact.html">contact</a></li>
+                    <li><a href="#results">results</a></li>
+                    <li><a href="#contact">contact</a></li>
                 </ul>
             </nav>
         </header>
@@ -39,49 +39,18 @@
         <div class="title-block"> <!-- title block + hero -->
             <h1>main heading</h1>
             <p>sub-heading. lorem ipsum dolor sit amet, choro essent usu ex, magna appetere nominati.</p>
-        </div>
+        </div>      
 
-<!--         <div class="second-block clearfix">  ****second block w blurb + image 
-            <div class="second-block-left">
-                <h3>value statement one.</h3>
-                <h3>value statement two.</h3>
-                <h3>value statement three.</h3>
-            </div>
-            <div class="second-block-right">
-                <img src="img/cat-high-five.jpeg" alt="cat-high-five">
-            </div>
-        </div>  -->       
-
-        <div class="third-block clearfix"> <!-- third block w value stmt -->
-            <a name="our-mission"></a>
-            <h2>-- our mission --</h2>
+        <div class="about-section clearfix"> <!-- third block w value stmt -->
+            <a name="about"></a>
+            <h2>-- about --</h2>
             
             <div> <!-- first block + paragraph -->
                 <p>lorem ipsum dolor sit amet, choro essent usu ex, magna appetere nominati te quo, nec viris expetenda disputationi ad, est in veniam ocurreret repudiare. ut quo delenit definiebas interesset, ius no justo epicurei. ius ad nobis adversarium, nemore facilis mea in, ea suscipit eloquentiam eam, per at vide homero dolorum, ei erant equidem pro. quas sril dissentiet eos at.</p>
             </div>
-
-            <div> <!-- numbered steps -->
-<!--                 <h3>step 1</h3>
-                <p>no aliquam eloquentiam est, pri feugait accusata ad, oporteat rationibus cum ei.</p>
-                
-                <h3>step 2</h3>
-                <p>mel at mollis utroque consetetur, est cu debitis luptatum accusamus.</p>
-                
-                <h3>step 3</h3>
-                <p>te sea cetero repudiare philosophia, nobis postea epicurei qui eu, mucius sententiae voluptatibus te vel.</p>
-                
-                <h3>step 4</h3>
-                <p>id vis inciderint scribentur.</p> -->
-            </div>        
-
-<!--             <div class="button">  ***don't forget the button
-                <button><a href="../create-a-note.html">create a note &gt;&gt;</a></button>
-            </div> -->
-
-
         </div>
 
-        <div class="fourth-block clearfix"> <!-- fourth block w select an emotion -->
+        <div class="vote-section clearfix"> <!-- fourth block w select an emotion -->
             <a name="vote"></a>
             <h2>-- vote for your choice --</h2>
             <ul class="clearfix">
@@ -92,6 +61,30 @@
                 <li><h3>option e</h3></li>
             </ul>
         </div>
+
+        <div class="results-section"> <!-- results section -->
+            <a name="results"></a>
+            <h2>-- results --</h2>
+
+            some sort of graphical representation of results?
+        </div>
+
+        <div class="contact-section"> <!-- contact form -->
+            <a name="contact"></a>
+            <h2>-- contact --</h2>
+            <form action="" method="post">
+                <label for="name"></label>
+                <input type="text" placeholder="your name" id="name" />
+               
+                <label for="mail"></label>
+                <input type="email" placeholder="your email address" id="mail" />
+
+                <label for="msg"></label>
+                <textarea placeholder="comments or questions..." id="msg"></textarea>
+                
+                <input type="submit" label="Submit">
+            </form>
+        </div>    
 
         <footer class="clearfix">
             <p>&copy; keri mikuska, 2015</p>

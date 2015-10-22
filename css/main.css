@@ -123,8 +123,15 @@ h1,h2 {
     font-weight: 400;
 }
 
-nav .sticky-nav {
-    height: 60px;
+.sticky-nav-wrapper {
+    height: 80px;
+    position: fixed;
+    top: 0px;
+}
+
+.scrolled {
+  /* Step 1: Add styles for fixed nav */
+
 }
 
 nav {
@@ -133,7 +140,6 @@ nav {
   background-color: white;
   box-shadow: 0 3px 11px rgba(229, 226, 246, .6);
   transition: all 300ms ease-out;
-  z-index: 99998;
 }
 
 nav > ul {
@@ -158,11 +164,9 @@ nav .active {
   border-top: 2px solid #E7E0F7;
 }
 
-/*.scrolled {
-   Step 1: Add styles for fixed nav 
-  position: fixed;
-  top: 0px;
-}*/
+.scrolled {
+  top: 80px;
+}
 
 
 
@@ -218,11 +222,13 @@ img#logo {
     width: 100%;
 }*/
 
-.title-block, .second.block, .third-block, .fourth-block {
+.title-block, .about-section, .vote-section, .results-section, .contact-section {
     clear: both;
     text-align: center;
     height: auto;
     vertical-align: center;
+    margin: 15px;
+    border-bottom: 2px solid #E7E0F7;
 }
 
 /*div.title-block {
@@ -233,6 +239,10 @@ h1 {
     font-size: 28px;
     padding-top: 50px;
     margin: 0;
+}
+
+div.title-block {
+    padding-top: 80px;
 }
 
 .title-block h1 {
@@ -270,10 +280,7 @@ div.second-block-right {
 
 }*/
 
-div.third-block {
-    border-top: 2px solid #E7E0F7;
-    border-bottom: 2px solid #E7E0F7;
-}
+
 
 h2 {
     font-size: 36px;
@@ -285,7 +292,7 @@ h3 {
     margin: 0;
 }*/
 
-.third-block p {
+.about-section p {
     padding: 10px;
     font-size: 18px;
     margin: 0 0 10px 0;
@@ -305,37 +312,37 @@ button a:link {
     text-decoration: none;
 }
 
-.fourth-block ul {
+.vote-section ul {
     list-style-type: none;
     padding: 0;
 }
 
-.fourth-block li {
+.vote-section li {
     padding: 30px 5px;
     margin: 3px;
     width: 18%;
     float: left;
 }
 
-.fourth-block h3 {
+.vote-section h3 {
     font-size: 28px;
     font-weight: 200;
     color: white;
 }
 
-.fourth-block li:nth-child(1) {
+.vote-section li:nth-child(1) {
     background-color: #B08BB8;
 }
-.fourth-block li:nth-child(2) {
+.vote-section li:nth-child(2) {
     background-color: #AD93C2;
 }
-.fourth-block li:nth-child(3) {
+.vote-section li:nth-child(3) {
     background-color: #938AAB;
 }
-.fourth-block li:nth-child(4) {
+.vote-section li:nth-child(4) {
     background-color: #9393C2;
 }
-.fourth-block li:nth-child(5) {
+.vote-section li:nth-child(5) {
     background-color: #8B97B8;
 }
 
