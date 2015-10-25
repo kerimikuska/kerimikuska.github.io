@@ -129,10 +129,6 @@ h1,h2 {
     top: 0px;
 }
 
-.scrolled {
-  /* Step 1: Add styles for fixed nav */
-
-}
 
 nav {
   width: 100%;
@@ -246,15 +242,25 @@ h1 {
 }
 
 div.title-block {
-    padding-top: 80px;
+    padding: 80px 0 0 0;
+    background: url("../img/gradient.png"), url("../img/lara01.jpg") no-repeat center 65px;
+    background-size: cover;
+    height: 550px;
+    margin: 0 0 0 0;
 }
 
 .title-block h1 {
-    font-size: 48px;
+    font-size: 80px;
+    font-weight: 700;
+    color: white;
+    margin-top: 100px;
 }
 
 .title-block p {
-    font-size: 24px;
+    font-size: 32px;
+    font-weight: 300;
+    color: white;
+    margin-top: 80px;
 }
 
 /*div.second-block-left {
