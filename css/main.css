@@ -322,7 +322,7 @@ button a:link {
     text-decoration: none;
 }*/
 
-.vote-section ul {
+/*.vote-section ul {
     list-style-type: none;
     padding: 0;
 }
@@ -354,6 +354,11 @@ button a:link {
 }
 .vote-section li:nth-child(5) {
     background-color: #8B97B8;
+}*/
+
+div.results-section {
+    height: 500px;
+    text-align: left;
 }
 
 div.instagram-media {
@@ -404,35 +409,54 @@ div#insta-1 {
     width:44px;
 }
 
+#insta-3c {
+    background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAAGFBMVEUiIiI9PT0eHh4gIB4hIBkcHBwcHBwcHBydr+JQAAAACHRSTlMABA4YHyQsM5jtaMwAAADfSURBVDjL7ZVBEgMhCAQBAf//42xcNbpAqakcM0ftUmFAAIBE81IqBJdS3lS6zs3bIpB9WED3YYXFPmHRfT8sgyrCP1x8uEUxLMzNWElFOYCV6mHWWwMzdPEKHlhLw7NWJqkHc4uIZphavDzA2JPzUDsBZziNae2S6owH8xPmX8G7zzgKEOPUoYHvGz1TBCxMkd3kwNVbU0gKHkx+iZILf77IofhrY1nYFnB/lQPb79drWOyJVa/DAvg9B/rLB4cC+Nqgdz/TvBbBnr6GBReqn/nRmDgaQEej7WhonozjF+Y2I/fZou/qAAAAAElFTkSuQmCC); 
+    display:block; 
+    height:44px; 
+    margin:0 auto -44px; 
+    position:relative; 
+    top:-22px; 
+    width:44px;
+}
+
+#insta-3d {
+    background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAAGFBMVEUiIiI9PT0eHh4gIB4hIBkcHBwcHBwcHBydr+JQAAAACHRSTlMABA4YHyQsM5jtaMwAAADfSURBVDjL7ZVBEgMhCAQBAf//42xcNbpAqakcM0ftUmFAAIBE81IqBJdS3lS6zs3bIpB9WED3YYXFPmHRfT8sgyrCP1x8uEUxLMzNWElFOYCV6mHWWwMzdPEKHlhLw7NWJqkHc4uIZphavDzA2JPzUDsBZziNae2S6owH8xPmX8G7zzgKEOPUoYHvGz1TBCxMkd3kwNVbU0gKHkx+iZILf77IofhrY1nYFnB/lQPb79drWOyJVa/DAvg9B/rLB4cC+Nqgdz/TvBbBnr6GBReqn/nRmDgaQEej7WhonozjF+Y2I/fZou/qAAAAAElFTkSuQmCC); 
+    display:block; 
+    height:44px; 
+    margin:0 auto -44px; 
+    position:relative; 
+    top:-22px; 
+    width:44px;
+}
 .instagram-media p {
     color:#c9c8cd; 
-    font-family:Arial,sans-serif; 
+    font-family: 'Source Sans Pro',sans-serif; 
     font-size:14px; 
     line-height:17px; 
     margin-bottom:0; 
     margin-top:8px; 
     overflow:hidden; 
     padding:8px 0 7px; 
-    text-align:center; 
-    text-overflow:ellipsis; 
-    white-space:nowrap;"><
+    text-align:left: ; 
+    white-space:normal;
 }
 
 .instagram-media a {
     color:#c9c8cd; 
-    font-family:Arial,sans-serif; 
-    font-size:14px; 
+    font-family: 'Source Sans Pro',sans-serif; 
+    font-size:12px; 
     font-style:normal; 
     font-weight:normal; 
-    line-height:17px; 
-    text-decoration:none;
+    line-height:14px; 
+    text-decoration: none; 
+    overflow-wrap: break-word;
 }
 
-.instagram-media time {
+/*.instagram-media time {
     font-family:Arial,sans-serif; 
     font-size:14px; 
     line-height:17px;
-}
+}*/
 
 .contact-section {
     width: 80%;
