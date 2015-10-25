@@ -356,33 +356,45 @@ button a:link {
     background-color: #8B97B8;
 }
 
-blockquote.instagram-media {
+div.instagram-media {
     background:#FFF; 
     border:0; 
     border-radius:3px; 
     box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); 
-    margin: 1px; 
+    margin: 10px; 
     max-width:658px; 
-    padding:0; 
-    width:99.375%; 
+    padding: 0; 
     width:-webkit-calc(100% - 2px); 
     width:calc(100% - 2px);
+    float: left;
+    width: 23%;
 }
 
-#insta-1 {
+div#insta-1 {
     padding: 8px;
+
 }
 
 #insta-2 {
     background:#F8F8F8; 
     line-height:0; 
-    margin-top:40px; 
     padding:62.5% 0; 
     text-align:center; 
     width:100%;
+    height: auto;
 }
 
-#insta-3 {
+#insta-3a {
+    background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAAGFBMVEUiIiI9PT0eHh4gIB4hIBkcHBwcHBwcHBydr+JQAAAACHRSTlMABA4YHyQsM5jtaMwAAADfSURBVDjL7ZVBEgMhCAQBAf//42xcNbpAqakcM0ftUmFAAIBE81IqBJdS3lS6zs3bIpB9WED3YYXFPmHRfT8sgyrCP1x8uEUxLMzNWElFOYCV6mHWWwMzdPEKHlhLw7NWJqkHc4uIZphavDzA2JPzUDsBZziNae2S6owH8xPmX8G7zzgKEOPUoYHvGz1TBCxMkd3kwNVbU0gKHkx+iZILf77IofhrY1nYFnB/lQPb79drWOyJVa/DAvg9B/rLB4cC+Nqgdz/TvBbBnr6GBReqn/nRmDgaQEej7WhonozjF+Y2I/fZou/qAAAAAElFTkSuQmCC); 
+    display:block; 
+    height:44px; 
+    margin:0 auto -44px; 
+    position:relative; 
+    top:-22px; 
+    width:44px;
+}
+
+#insta-3b {
     background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAAGFBMVEUiIiI9PT0eHh4gIB4hIBkcHBwcHBwcHBydr+JQAAAACHRSTlMABA4YHyQsM5jtaMwAAADfSURBVDjL7ZVBEgMhCAQBAf//42xcNbpAqakcM0ftUmFAAIBE81IqBJdS3lS6zs3bIpB9WED3YYXFPmHRfT8sgyrCP1x8uEUxLMzNWElFOYCV6mHWWwMzdPEKHlhLw7NWJqkHc4uIZphavDzA2JPzUDsBZziNae2S6owH8xPmX8G7zzgKEOPUoYHvGz1TBCxMkd3kwNVbU0gKHkx+iZILf77IofhrY1nYFnB/lQPb79drWOyJVa/DAvg9B/rLB4cC+Nqgdz/TvBbBnr6GBReqn/nRmDgaQEej7WhonozjF+Y2I/fZou/qAAAAAElFTkSuQmCC); 
     display:block; 
     height:44px; 
