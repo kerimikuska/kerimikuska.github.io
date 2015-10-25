@@ -138,7 +138,7 @@ nav {
   width: 100%;
   text-align: center;
   background-color: white;
-  box-shadow: 0 3px 11px rgba(229, 226, 246, .6);
+  box-shadow: 0 3px 11px rgba(185, 185, 185, .6);
   transition: all 300ms ease-out;
 }
 
@@ -161,7 +161,7 @@ nav~a {
 }
 
 nav .active {
-  border-top: 2px solid #E7E0F7;
+  border-top: 2px solid #B9B9B9;
 }
 
 .scrolled {
@@ -228,7 +228,11 @@ img#logo {
     height: auto;
     vertical-align: center;
     margin: 15px;
-    border-bottom: 2px solid #E7E0F7;
+    padding-bottom: 50px;
+}
+
+.title-block, .about-section, .vote-section, .results-section {
+    border-bottom: 1px dotted #B9B9B9;
 }
 
 /*div.title-block {
@@ -298,7 +302,7 @@ h3 {
     margin: 0 0 10px 0;
 }
 
-button {
+/*button {
     float: right;
     margin: 0 10px 10px 0;
     padding: 10px;
@@ -310,7 +314,7 @@ button {
 button a:link {
     color: black;
     text-decoration: none;
-}
+}*/
 
 .vote-section ul {
     list-style-type: none;
@@ -346,9 +350,68 @@ button a:link {
     background-color: #8B97B8;
 }
 
+canvas {
+    border: 1px solid black;
+}
+
+
+.contact-section {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.contact-left {
+    float: left;
+    width: 50%;
+    height: 126px;
+}
+
+.contact-left input {
+    width: 90%;
+    padding: 2%;
+    margin: 3%;
+    border: 1px solid #B9B9B9;
+    border-radius: 3px;
+}
+
+.contact-right {
+    float: left; 
+    width: 50%;
+    height: 126px;
+}
+
+.contact-right textarea {
+    width: 90%;
+    height: 82px;
+    padding: 2%;
+    margin: 3%;
+    border: 1px solid #B9B9B9;
+    border-radius: 3px;
+}
+
+input.contact-full {
+    margin-top: 10px;
+    width: 40%;
+    padding: 1%;
+    border: 1px solid #B9B9B9;
+    border-radius: 3px;
+    background-color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+input, textarea {
+    box-shadow: 1px 1px 3px 0px rgba(185,185,185,0.15);
+}
+
+.clicked-button {
+    background-color: #9E9DC5;
+    position-top: 1px;
+}
+
 footer {
     clear: both;
-    border-top: 2px solid #E7E0F7;
+    border-top: 2px solid #B9B9B9;
 }
 
 footer p {
@@ -370,6 +433,46 @@ footer li {
 footer img {
     height: 20px;
 }
+
+
+
+/* =================================================================
+   Instagram Badge classes
+   ================================================================= 
+
+.ig-b- { 
+    display: inline-block; 
+}
+
+.ig-b- img { 
+    visibility: hidden; 
+}
+
+.ig-b-:hover { 
+    background-position: 0 -60px; 
+    }
+
+.ig-b-:active { 
+    background-position: 0 -120px; 
+}
+
+.ig-b-16 { 
+    width: 20px; 
+    height: 20px; 
+    margin: 4px 0 0 4px;
+    background: url(http://badges.instagram.com/static/images/ig-badge-sprite-16.png) no-repeat 0 0; 
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+    
+    .ig-b-16 { 
+        background-image: url(http://badges.instagram.com/static/images/ig-badge-sprite-16@2x.png); 
+        background-size: 60px 178px; 
+    } 
+}
+
+*/
+
 
 /* ==========================================================================
    Helper classes

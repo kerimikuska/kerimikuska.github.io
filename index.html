@@ -21,11 +21,12 @@
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
+
         <!-- Add your site or application content here -->
         <header class="clearfix">
             <nav class="sticky-nav-wrapper clearfix">
                 <div class= "main-logo"> <!-- logo/title -->
-                    <img id="logo" src="img/logo2.png" alt="share|notes">
+                    <img id="logo" src="img/caturdays.png" alt="caturdays logo">
                 </div>
                 <ul class="main-menu">
                     <li><a href="#about">about</a></li>
@@ -36,12 +37,15 @@
             </nav>
         </header>
 
-        <div class="title-block"> <!-- title block + hero -->
-            <h1>main heading</h1>
-            <p>sub-heading. lorem ipsum dolor sit amet, choro essent usu ex, magna appetere nominati.</p>
+        <div class="title-block"> <!-- 1st title block + hero -->
+            <h1>caturdays</h1>
+            <p>(because saturdays are equally important for cats and their owners.) 
+            <br>
+            <br>
+            =^..^=</p>
         </div>      
 
-        <div class="about-section clearfix"> <!-- third block w value stmt -->
+        <div class="about-section clearfix"> <!-- 2nd block w text -->
             <a name="about"></a>
             <h2>-- about --</h2>
             
@@ -50,59 +54,81 @@
             </div>
         </div>
 
-        <div class="vote-section clearfix"> <!-- fourth block w select an emotion -->
+        <div class="vote-section clearfix"> <!-- 3rd block w pix -->
             <a name="vote"></a>
-            <h2>-- vote for your choice --</h2>
-            <ul class="clearfix">
+            <h2>-- vote for your fave #caturday shot --</h2>
+<!--             <ul class="clearfix">
                 <li><h3>option a</h3></li>
                 <li><h3>option b</h3></li>
                 <li><h3>option c</h3></li>
                 <li><h3>option d</h3></li>
                 <li><h3>option e</h3></li>
-            </ul>
+            </ul> -->
+            <div id="instafeed"></div>
+
         </div>
 
-        <div class="results-section"> <!-- results section -->
+        <div class="results-section"> <!-- 4th block w results -->
             <a name="results"></a>
             <h2>-- results --</h2>
 
-            some sort of graphical representation of results?
+            <canvas id="canvas" width="500" height="250">
+                <img src="http://31.media.tumblr.com/204b5eeabe4471edca7af0f4a373cf58/tumblr_nlmp9wIUo41u8ntcpo1_500.gif" width="293" height="488" alt="tswift-cats-gif"/>
+            </canvas>
+
         </div>
 
-        <div class="contact-section"> <!-- contact form -->
+        <div class="contact-section"> <!-- 5th block w/ contact form -->
             <a name="contact"></a>
             <h2>-- contact --</h2>
             <form action="" method="post">
+                <div class="contact-left">
                 <label for="name"></label>
                 <input type="text" placeholder="your name" id="name" />
-               
                 <label for="mail"></label>
                 <input type="email" placeholder="your email address" id="mail" />
+                </div>
 
+                <div class="contact-right">
                 <label for="msg"></label>
                 <textarea placeholder="comments or questions..." id="msg"></textarea>
-                
-                <input type="submit" label="Submit">
+                </div>
+
+                <input type="submit" label="Submit" class="contact-full">
             </form>
         </div>    
 
         <footer class="clearfix">
-            <p>&copy; keri mikuska, 2015</p>
+            <p>&copy; caturdays, 2015</p>
 <!--             <p>follow us on social media:
  -->                <ul>
-                    <li>follow us:</li>
-                    <li><a href="http://instagram.com" target="_blank"><img src="img/instagram.png"></li>
-                    <li><a href="http://facebook.com" target="_blank"><img src="img/facebook.png"></li>
-                    <li><a href="http://twitter.com" target="_blank"><img src="img/twitter.png"></li>
+                    <li>about the curator:</li>
+                    <!-- <li><a href="http://instagram.com/kerimikuska?ref=badge" class="ig-b- ig-b-16"><img src="img/instagram.png" alt="Instagram" /></a></li> -->
+                    <li><a href="http://instagram.com/kerimikuska" target="_blank"><img src="img/instagram.png"></a></li>
+                    <li><a href="http://facebook.com" target="_blank"><img src="img/facebook.png"></a></li>
+                    <li><a href="http://twitter.com" target="_blank"><img src="img/twitter.png"></a></li>
                 </ul>
             </p>
         </footer>
 
-
+<!-- JavaScript and jQuery scripts -->
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
+
+<!-- Instafeed API Plugin -->
+        <script type="text/javascript">
+            var feed = new Instafeed({
+                get: 'tagged',
+                tagName: 'caturday',
+                clientId: 'd0cc0431a5a44b0886ac5524742ecb34',
+                sortBy: 'most-recent',
+                links: 'true',
+                resolution: 'standard_resolution',
+            });
+            feed.run();
+        </script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
