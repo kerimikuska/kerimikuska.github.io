@@ -136,6 +136,7 @@ nav {
   background-color: white;
   box-shadow: 0 3px 11px rgba(185, 185, 185, .6);
   transition: all 300ms ease-out;
+  z-index: 9999999;
 }
 
 nav > ul {
