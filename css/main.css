@@ -471,9 +471,11 @@ footer img {
         height: auto;
     }
 
-    #taggged-caturday {
-        padding-bottom: 0.958rem;
+    div#taggged-caturday {
+        margin-bottom: 0.958rem;
+        border: 1px solid red;
     }
+    
     .contact-left, .contact-right {
         display: block;
         width: 100%;
