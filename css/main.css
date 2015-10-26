@@ -471,19 +471,9 @@ footer img {
         height: auto;
     }
 
-/*    div.instagram-media {
-        width: 95%;
-        max-width: 100%;
-        height: auto;
-        margin: 0 auto 1rem auto;
+    #taggged-caturday {
+        padding-bottom: 0.958rem;
     }
-
-    .instagram-media a {
-        font-size: 1rem;
-        font-weight: 200;
-        line-height: 0.5rem;
-    }
-*/
     .contact-left, .contact-right {
         display: block;
         width: 100%;
