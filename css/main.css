@@ -257,7 +257,7 @@ div.photos-section {
     text-align: left;
 }
 
-div.instagram-media {
+/*div.instagram-media {
     display: inline-block;
     background:#FFF; 
     border:0; 
@@ -350,7 +350,7 @@ div.insta-1 {
     line-height:0.875rem; 
     text-decoration: none; 
     overflow-wrap: break-word;
-}
+}*/
 
 
 .contact-section {
@@ -471,7 +471,7 @@ footer img {
         height: auto;
     }
 
-    div.instagram-media {
+/*    div.instagram-media {
         width: 95%;
         max-width: 100%;
         height: auto;
@@ -483,7 +483,7 @@ footer img {
         font-weight: 200;
         line-height: 0.5rem;
     }
-
+*/
     .contact-left, .contact-right {
         display: block;
         width: 100%;
