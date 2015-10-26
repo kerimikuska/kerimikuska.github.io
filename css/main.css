@@ -40,10 +40,10 @@ html {
 
 hr {
     display: block;
-    height: 1px;
+    height: 0.063rem;
     border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
+    border-top: 0.063rem solid #ccc;
+    margin: 1rem 0;
     padding: 0;
 }
 
@@ -99,7 +99,7 @@ textarea {
 body {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 200;
-    margin: 0 1px;
+    margin: 0 0.063rem;
 }
 
 a {
@@ -113,9 +113,9 @@ h1,h2 {
 }
 
 .sticky-nav-wrapper {
-    height: 80px;
+    height: 5rem;
     position: fixed;
-    top: 0px;
+    top: 0;
 }
 
 
@@ -123,7 +123,7 @@ nav {
   width: 100%;
   text-align: center;
   background-color: white;
-  box-shadow: 0 3px 11px rgba(185, 185, 185, .6);
+  box-shadow: 0 0.188rem 0.688rem rgba(185, 185, 185, .6);
   transition: all 300ms ease-out;
   z-index: 9999999;
 }
@@ -136,7 +136,7 @@ nav > ul {
 
 nav li {
     display: inline-block;
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
 nav~a {
@@ -147,17 +147,17 @@ nav~a {
 }
 
 nav .active {
-  border-top: 2px solid #B9B9B9;
+  border-top: 0.125rem solid #B9B9B9;
 }
 
 .scrolled {
-  top: 80px;
+  top: 5rem;
 }
 
 
 ul.main-menu li {
-    padding: 20px;
-    margin: 2px;
+    padding: 1.25rem;
+    margin: 0.125rem;
 }
 
 ul.main-menu li:link {
@@ -178,7 +178,7 @@ ul.main-menu li:hover {
 ul.main-menu li a:active {
     background-color: #E5E2F6;
     color: #424242;
-    top: 1px;
+    top: 0.063rem;
     text-decoration: none;
 }
 
@@ -189,9 +189,9 @@ ul.main-menu li a:visited {
 
 img#logo {
     float: left;
-    height: 55px;
-    padding: 10px 0;
-    margin-left: 10px;
+    height: 3.438rem;
+    padding: 0.625rem 0;
+    margin-left: 0.625rem;
 }
 
 
@@ -199,70 +199,70 @@ img#logo {
     clear: both;
     text-align: center;
     height: auto;
-    margin: 15px;
-    padding-bottom: 50px;
+    margin: 0.938rem;
+    padding-bottom: 3.125rem;
 }
 
 .title-block, .about-section, .vote-section, .photos-section {
-    border-bottom: 1px dotted #B9B9B9;
+    border-bottom: 0.063rem dotted #B9B9B9;
 }
 
 
 h1 {
-    font-size: 28px;
-    padding-top: 50px;
+    font-size: 1.75rem;
+    padding-top: 3.125rem;
     margin: 0;
 }
 
 div.title-block {
-    padding: 80px 0 0 0;
-    background: url("../img/gradient.png"), url("../img/lara01.jpg") no-repeat center 65px;
+    padding: 5rem 0 0 0;
+    background: url("../img/gradient.png"), url("../img/lara01.jpg") no-repeat center 4.063rem;
     background-size: cover;
-    height: 550px;
+    height: 34.375rem;
     margin: 0 0 0 0;
 }
 
 .title-block h1 {
-    font-size: 80px;
+    font-size: 5rem;
     font-weight: 700;
     color: white;
-    margin-top: 100px;
+    margin-top: 6.25rem;
 }
 
 .title-block p {
-    font-size: 32px;
+    font-size: 2rem;
     font-weight: 200;
     font-style: italic;
     color: white;
-    margin-top: 80px;
+    margin-top: 5rem;
 }
 
 
 h2 {
-    font-size: 36px;
+    font-size: 2.25rem;
     text-align: center;
 }
 
 
 .about-section p {
-    padding: 10px;
-    font-size: 18px;
-    margin: 0 0 10px 0;
+    padding: 0.625rem;
+    font-size: 1.125rem;
+    margin: 0 0 0.625rem 0;
 }
 
 
 div.photos-section {
-    height: 500px;
+    height: 31.25rem;
     text-align: left;
 }
 
 div.instagram-media {
     background:#FFF; 
     border:0; 
-    border-radius:3px; 
-    box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); 
-    margin: 10px; 
-    max-width:658px; 
+    border-radius: 0.188rem; 
+    box-shadow:0 0 .063rem 0 rgba(0,0,0,0.5),0 .063rem 0.625rem 0 rgba(0,0,0,0.15); 
+    margin: 0.625rem; 
+    max-width: 41.125rem; 
     padding: 0; 
     width:-webkit-calc(100% - 2px); 
     width:calc(100% - 2px);
@@ -271,7 +271,7 @@ div.instagram-media {
 }
 
 div.insta-1 {
-    padding: 8px;
+    padding: .5rem;
 }
 
 .insta-2 {
@@ -285,54 +285,57 @@ div.insta-1 {
 
 #insta-3a {
     background:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAAGFBMVEUiIiI9PT0eHh4gIB4hIBkcHBwcHBwcHBydr+JQAAAACHRSTlMABA4YHyQsM5jtaMwAAADfSURBVDjL7ZVBEgMhCAQBAf//42xcNbpAqakcM0ftUmFAAIBE81IqBJdS3lS6zs3bIpB9WED3YYXFPmHRfT8sgyrCP1x8uEUxLMzNWElFOYCV6mHWWwMzdPEKHlhLw7NWJqkHc4uIZphavDzA2JPzUDsBZziNae2S6owH8xPmX8G7zzgKEOPUoYHvGz1TBCxMkd3kwNVbU0gKHkx+iZILf77IofhrY1nYFnB/lQPb79drWOyJVa/DAvg9B/rLB4cC+Nqgdz/TvBbBnr6GBReqn/nRmDgaQEej7WhonozjF+Y2I/fZou/qAAAAAElFTkSuQmCC"); 
-    display:inline-block; 
-    height:44px; 
-    margin:0 auto -44px; 
-    position:relative; 
-    top:-22px; 
-    width:44px;
-    clear:both;
+    display: inline-block; 
+    height: 2.75rem; 
+    margin: 0 auto -2.75rem; 
+    position: relative; 
+    top: -1.375rem; 
+    width: 2.75rem;
+    clear: both;
 }
 
 #insta-3b {
     background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAAGFBMVEUiIiI9PT0eHh4gIB4hIBkcHBwcHBwcHBydr+JQAAAACHRSTlMABA4YHyQsM5jtaMwAAADfSURBVDjL7ZVBEgMhCAQBAf//42xcNbpAqakcM0ftUmFAAIBE81IqBJdS3lS6zs3bIpB9WED3YYXFPmHRfT8sgyrCP1x8uEUxLMzNWElFOYCV6mHWWwMzdPEKHlhLw7NWJqkHc4uIZphavDzA2JPzUDsBZziNae2S6owH8xPmX8G7zzgKEOPUoYHvGz1TBCxMkd3kwNVbU0gKHkx+iZILf77IofhrY1nYFnB/lQPb79drWOyJVa/DAvg9B/rLB4cC+Nqgdz/TvBbBnr6GBReqn/nRmDgaQEej7WhonozjF+Y2I/fZou/qAAAAAElFTkSuQmCC); 
-    display:inline-block; 
-    height:44px; 
-    margin:0 auto -44px; 
-    position:relative; 
-    top:-22px; 
-    width:44px;
+    display: inline-block; 
+    height: 2.75rem; 
+    margin: 0 auto -2.75rem; 
+    position: relative; 
+    top: -1.375rem; 
+    width: 2.75rem;
+    clear: both;
 }
 
 #insta-3c {
     background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAAGFBMVEUiIiI9PT0eHh4gIB4hIBkcHBwcHBwcHBydr+JQAAAACHRSTlMABA4YHyQsM5jtaMwAAADfSURBVDjL7ZVBEgMhCAQBAf//42xcNbpAqakcM0ftUmFAAIBE81IqBJdS3lS6zs3bIpB9WED3YYXFPmHRfT8sgyrCP1x8uEUxLMzNWElFOYCV6mHWWwMzdPEKHlhLw7NWJqkHc4uIZphavDzA2JPzUDsBZziNae2S6owH8xPmX8G7zzgKEOPUoYHvGz1TBCxMkd3kwNVbU0gKHkx+iZILf77IofhrY1nYFnB/lQPb79drWOyJVa/DAvg9B/rLB4cC+Nqgdz/TvBbBnr6GBReqn/nRmDgaQEej7WhonozjF+Y2I/fZou/qAAAAAElFTkSuQmCC); 
-    display:inline-block; 
-    height:44px; 
-    margin:0 auto -44px; 
-    position:relative; 
-    top:-22px; 
-    width:44px;
+    display: inline-block; 
+    height: 2.75rem; 
+    margin: 0 auto -2.75rem; 
+    position: relative; 
+    top: -1.375rem; 
+    width: 2.75rem;
+    clear: both;
 }
 
 #insta-3d {
     background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAAGFBMVEUiIiI9PT0eHh4gIB4hIBkcHBwcHBwcHBydr+JQAAAACHRSTlMABA4YHyQsM5jtaMwAAADfSURBVDjL7ZVBEgMhCAQBAf//42xcNbpAqakcM0ftUmFAAIBE81IqBJdS3lS6zs3bIpB9WED3YYXFPmHRfT8sgyrCP1x8uEUxLMzNWElFOYCV6mHWWwMzdPEKHlhLw7NWJqkHc4uIZphavDzA2JPzUDsBZziNae2S6owH8xPmX8G7zzgKEOPUoYHvGz1TBCxMkd3kwNVbU0gKHkx+iZILf77IofhrY1nYFnB/lQPb79drWOyJVa/DAvg9B/rLB4cC+Nqgdz/TvBbBnr6GBReqn/nRmDgaQEej7WhonozjF+Y2I/fZou/qAAAAAElFTkSuQmCC); 
-    display:inline-block; 
-    height:44px; 
-    margin:0 auto -44px; 
-    position:relative; 
-    top:-22px; 
-    width:44px;
+    display: inline-block; 
+    height: 2.75rem; 
+    margin: 0 auto -2.75rem; 
+    position: relative; 
+    top: -1.375rem; 
+    width: 2.75rem;
+    clear: both;
 }
 
 .instagram-media p {
     color:#c9c8cd; 
     font-family: 'Source Sans Pro',sans-serif; 
-    font-size:14px; 
-    line-height:17px; 
+    font-size:0.875rem; 
+    line-height:1.063rem; 
     margin-bottom:0; 
-    margin-top:8px; 
+    margin-top:0.5rem; 
     overflow:hidden; 
-    padding:8px 0 7px; 
+    padding:0.5rem 0 0.438rem; 
     text-align:left: ; 
     white-space:normal;
 }
@@ -340,10 +343,10 @@ div.insta-1 {
 .instagram-media a {
     color:#c9c8cd; 
     font-family: 'Source Sans Pro',sans-serif; 
-    font-size:12px; 
+    font-size:0.750rem; 
     font-style:normal; 
     font-weight:normal; 
-    line-height:14px; 
+    line-height:0.875rem; 
     text-decoration: none; 
     overflow-wrap: break-word;
 }
@@ -357,42 +360,42 @@ div.insta-1 {
 .contact-left {
     float: left;
     width: 50%;
-    height: 126px;
+    height: 7.875rem;
 }
 
 .contact-left input {
     width: 90%;
-    padding: 10px;
-    margin: 15px;
-    border: 1px solid #B9B9B9;
-    border-radius: 3px;
+    padding: 0.625rem;
+    margin: 0.938rem;
+    border: 0.063rem solid #B9B9B9;
+    border-radius: 0.188rem;
 }
 
 .contact-left input:last-of-type {
-    margin: 0 15px 15px 15px;
+    margin: 0 0.938rem 0.938rem 0.938rem;
 }
 
 .contact-right {
     float: left; 
     width: 50%;
-    height: 126px;
+    height: 7.875rem;
 }
 
 .contact-right textarea {
     width: 90%;
-    height: 82px;
-    padding: 10px;
-    margin: 15px;
-    border: 1px solid #B9B9B9;
-    border-radius: 3px;
+    height: 5.125rem;
+    padding: 0.625rem;
+    margin: 0.938rem;
+    border: 0.063rem solid #B9B9B9;
+    border-radius: 0.188rem;
 }
 
 input.submit {
-    margin-top: 10px;
+    margin-top: 0.625rem;
     width: 40%;
     padding: 1%;
-    border: 1px solid #B9B9B9;
-    border-radius: 3px;
+    border: 0.063rem solid #B9B9B9;
+    border-radius: 0.188rem;
     background-color: white;
     text-transform: uppercase;
     font-weight: 500;
@@ -405,26 +408,26 @@ input, textarea {
 .clicked-button {
     background-color: #9E9DC5;
     top: 1px;
-    -webkit-box-shadow: inset 2px 2px 10px 0px rgba(0,0,0,0.1);
-    -moz-box-shadow: inset 2px 2px 10px 0px rgba(0,0,0,0.1);
-    box-shadow: inset 2px 2px 10px 0px rgba(0,0,0,0.1);
+    -webkit-box-shadow: inset 0.125rem 0.125rem 0.625rem 0px rgba(0,0,0,0.1);
+    -moz-box-shadow: inset 0.125rem 0.125rem 0.625rem 0px rgba(0,0,0,0.1);
+    box-shadow: inset 0.125rem 0.125rem 0.625rem 0px rgba(0,0,0,0.1);
 }
 
 .hover-button {
-    -webkit-box-shadow: 2px 2px 32px 0px rgba(0,0,0,0.3);
-    -moz-box-shadow: 2px 2px 32px 0px rgba(0,0,0,0.3);
-    box-shadow: 2px 2px 32px 0px rgba(0,0,0,0.3);
+    -webkit-box-shadow: 0.125rem 0.125rem 2rem 0px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0.125rem 0.125rem 2rem 0px rgba(0,0,0,0.3);
+    box-shadow: 0.125rem 0.125rem 2rem 0px rgba(0,0,0,0.3);
     background-color: #E9DAFF;
 }
 
 footer {
     clear: both;
-    border-top: 1px dotted #B9B9B9;
+    border-top: 0.063rem dotted #B9B9B9;
 }
 
 footer p {
     float: left;
-    margin-left: 5px;
+    margin-left: 0.313rem;
 }
 
 footer ul {
@@ -435,11 +438,11 @@ footer ul {
 footer li {
     float: left;
     vertical-align: middle;
-    margin-right: 10px;
+    margin-right: 0.625rem;
 }
 
 footer img {
-    height: 20px;
+    height: 1.250rem;
 }
 
 
