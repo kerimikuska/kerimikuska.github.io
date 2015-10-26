@@ -170,16 +170,17 @@ ul.main-menu li a {
 }
 
 ul.main-menu li:hover {
-    background-color: #E5E2F6;
+    text-transform: uppercase;
     color: #424242;
     text-decoration: none;
 }
 
 ul.main-menu li a:active {
-    background-color: #E5E2F6;
-    color: #424242;
+    color: #000000;
     top: 0.063rem;
     text-decoration: none;
+    text-shadow: 1px 2px rgba(185, 185, 185, .5);
+
 }
 
 ul.main-menu li a:visited {
@@ -195,7 +196,7 @@ img#logo {
 }
 
 
-.title-block, .about-section, .vote-section, .photos-section, .contact-section {
+.title-block, .about-section, .photos-section, .contact-section {
     clear: both;
     text-align: center;
     height: auto;
@@ -203,7 +204,7 @@ img#logo {
     padding-bottom: 3.125rem;
 }
 
-.title-block, .about-section, .vote-section, .photos-section {
+.title-block, .about-section, .photos-section {
     border-bottom: 0.063rem dotted #B9B9B9;
 }
 
@@ -252,11 +253,12 @@ h2 {
 
 
 div.photos-section {
-    height: 31.25rem;
+    height: auto;
     text-align: left;
 }
 
 div.instagram-media {
+    display: inline-block;
     background:#FFF; 
     border:0; 
     border-radius: 0.188rem; 
@@ -267,7 +269,6 @@ div.instagram-media {
     width:-webkit-calc(100% - 2px); 
     width:calc(100% - 2px);
     width: 23%;
-    display: inline-block;
 }
 
 div.insta-1 {
@@ -392,11 +393,11 @@ div.insta-1 {
 
 input.submit {
     margin-top: 0.625rem;
-    width: 40%;
+    width: 20%;
     padding: 1%;
     border: 0.063rem solid #B9B9B9;
     border-radius: 0.188rem;
-    background-color: white;
+    background-color: rgba(185, 185, 185, .5);
     text-transform: uppercase;
     font-weight: 500;
 }
@@ -444,6 +445,63 @@ footer li {
 footer img {
     height: 1.250rem;
 }
+
+/*  ===========================================================
+    Responsive Styles
+    =========================================================== */
+
+/*==phone styles==*/
+
+@media only screen 
+  and (min-width: 375px) 
+  and (max-width: 667px) { 
+
+    .main-menu {
+        display: none;
+    }
+    
+    .about-section p {
+        font-size: 1.5rem;
+        padding: 0.625rem 1.25rem;
+    }
+
+    div.photos-section {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+
+    div.instagram-media {
+        width: 95%;
+        max-width: 100%;
+        height: auto;
+        margin: 0 auto 1rem auto;
+    }
+
+    .instagram-media a {
+        font-size: 1rem;
+        font-weight: 200;
+        line-height: 0.5rem;
+    }
+
+    .contact-left, .contact-right {
+        display: block;
+        width: 100%;
+    }
+
+    h1 {
+        padding-top: 0;
+    }
+
+    h2 {
+        margin-top: 0.5rem;
+    }
+
+    .title-block, .about-section, .photos-section, .contact-section {
+        padding-bottom: 0.5rem;
+    }
+}
+    
 
 
 
