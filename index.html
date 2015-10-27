@@ -66,12 +66,12 @@
                 <p>lorem ipsum dolor sit amet, choro essent usu ex, magna appetere nominati te quo, nec viris expetenda disputationi ad, est in veniam ocurreret repudiare. ut quo delenit definiebas interesset, ius no justo epicurei. ius ad nobis adversarium, nemore facilis mea in, ea suscipit eloquentiam eam, per at vide homero dolorum, ei erant equidem pro. quas sril dissentiet eos at.</p>
             </div>
         </div>
-
-        <div class="photos-section clearfix" id="photos">
-            <h2>-- #caturday on the web --</h2>
+        <section id="photos">
+        <div class="photos-section clearfix" >
+            <h2>-- #caturday on the internet --</h2>
         
         <!-- INSTANSIVE WIDGET #caturday -->
-            <div class="clearfix" id="tagged-caturday">
+            <div class="clearfix">
                 <script src="//instansive.com/widget/js/instansive.js"></script>
                 <iframe src="//instansive.com/widgets/b5af639464deaa8b327353e8517720098b406465.html" id="instansive_b5af639464" name="instansive_b5af639464"  scrolling="no" allowtransparency="true" class="instansive-widget" style="width: 100%; border: 0; overflow: hidden;"></iframe>
             </div>
@@ -82,11 +82,11 @@
                 <iframe src="//instansive.com/widgets/79daa581b5c0563ac0f94e4b0d8d9ecf886f5f70.html" id="instansive_79daa581b5" name="instansive_79daa581b5"  scrolling="no" allowtransparency="true" class="instansive-widget" style="width: 100%; border: 0; overflow: hidden;"></iframe>
             </div>
         </div>
-
+        </section>
         <div class="contact-section" id="contact"> 
             <h2>-- contact --</h2>
             <form action="http://formspree.io/lara.cat02@gmail.com" method="post">
-                <div class="contact-left">
+                <div class="contact-left required">
                 <label for="name"></label>
                 <input type="text" placeholder="your name" id="name" name="Name" />
                 <input type="hidden" name="_subject" value="New Form Submission from Caturdays"/>
@@ -96,12 +96,12 @@
            
                 </div>
 
-                <div class="contact-right">
+                <div class="contact-right required">
                 <label for="msg"></label>
                 <textarea placeholder="share your caturday story..." id="msg" name="Message"></textarea>
                 </div>
 
-                <input type="submit" name="Submit" class="submit" value="Submit">
+                <input type="submit" name="Submit" class="submit">
             </form>
         </div>    
 
@@ -123,18 +123,6 @@
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
 
-<!-- Instafeed API Plugin -->
-        <script type="text/javascript">
-            var feed = new Instafeed({
-                get: 'tagged',
-                tagName: 'caturday',
-                clientId: 'd0cc0431a5a44b0886ac5524742ecb34',
-                sortBy: 'most-recent',
-                links: 'true',
-                resolution: 'standard_resolution',
-            });
-            feed.run();
-        </script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
