@@ -187,13 +187,13 @@ ul.main-menu li a:visited {
     color: inherit;
 }
 
-
-img#logo {
+img.logo {
     float: left;
     height: 3.438rem;
     padding: 0.625rem 0;
     margin-left: 0.625rem;
 }
+
 
 
 .title-block, .about-section, .photos-section, .contact-section {
@@ -256,102 +256,6 @@ div.photos-section {
     height: auto;
     text-align: left;
 }
-
-/*div.instagram-media {
-    display: inline-block;
-    background:#FFF; 
-    border:0; 
-    border-radius: 0.188rem; 
-    box-shadow:0 0 .063rem 0 rgba(0,0,0,0.5),0 .063rem 0.625rem 0 rgba(0,0,0,0.15); 
-    margin: 0.625rem; 
-    max-width: 41.125rem; 
-    padding: 0; 
-    width:-webkit-calc(100% - 2px); 
-    width:calc(100% - 2px);
-    width: 23%;
-}
-
-div.insta-1 {
-    padding: .5rem;
-}
-
-.insta-2 {
-    background:#F8F8F8; 
-    line-height:0; 
-    padding:62.5% 0; 
-    text-align:center; 
-    width:100%;
-    height: auto;
-}
-
-#insta-3a {
-    background:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAAGFBMVEUiIiI9PT0eHh4gIB4hIBkcHBwcHBwcHBydr+JQAAAACHRSTlMABA4YHyQsM5jtaMwAAADfSURBVDjL7ZVBEgMhCAQBAf//42xcNbpAqakcM0ftUmFAAIBE81IqBJdS3lS6zs3bIpB9WED3YYXFPmHRfT8sgyrCP1x8uEUxLMzNWElFOYCV6mHWWwMzdPEKHlhLw7NWJqkHc4uIZphavDzA2JPzUDsBZziNae2S6owH8xPmX8G7zzgKEOPUoYHvGz1TBCxMkd3kwNVbU0gKHkx+iZILf77IofhrY1nYFnB/lQPb79drWOyJVa/DAvg9B/rLB4cC+Nqgdz/TvBbBnr6GBReqn/nRmDgaQEej7WhonozjF+Y2I/fZou/qAAAAAElFTkSuQmCC"); 
-    display: inline-block; 
-    height: 2.75rem; 
-    margin: 0 auto -2.75rem; 
-    position: relative; 
-    top: -1.375rem; 
-    width: 2.75rem;
-    clear: both;
-}
-
-#insta-3b {
-    background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAAGFBMVEUiIiI9PT0eHh4gIB4hIBkcHBwcHBwcHBydr+JQAAAACHRSTlMABA4YHyQsM5jtaMwAAADfSURBVDjL7ZVBEgMhCAQBAf//42xcNbpAqakcM0ftUmFAAIBE81IqBJdS3lS6zs3bIpB9WED3YYXFPmHRfT8sgyrCP1x8uEUxLMzNWElFOYCV6mHWWwMzdPEKHlhLw7NWJqkHc4uIZphavDzA2JPzUDsBZziNae2S6owH8xPmX8G7zzgKEOPUoYHvGz1TBCxMkd3kwNVbU0gKHkx+iZILf77IofhrY1nYFnB/lQPb79drWOyJVa/DAvg9B/rLB4cC+Nqgdz/TvBbBnr6GBReqn/nRmDgaQEej7WhonozjF+Y2I/fZou/qAAAAAElFTkSuQmCC); 
-    display: inline-block; 
-    height: 2.75rem; 
-    margin: 0 auto -2.75rem; 
-    position: relative; 
-    top: -1.375rem; 
-    width: 2.75rem;
-    clear: both;
-}
-
-#insta-3c {
-    background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAAGFBMVEUiIiI9PT0eHh4gIB4hIBkcHBwcHBwcHBydr+JQAAAACHRSTlMABA4YHyQsM5jtaMwAAADfSURBVDjL7ZVBEgMhCAQBAf//42xcNbpAqakcM0ftUmFAAIBE81IqBJdS3lS6zs3bIpB9WED3YYXFPmHRfT8sgyrCP1x8uEUxLMzNWElFOYCV6mHWWwMzdPEKHlhLw7NWJqkHc4uIZphavDzA2JPzUDsBZziNae2S6owH8xPmX8G7zzgKEOPUoYHvGz1TBCxMkd3kwNVbU0gKHkx+iZILf77IofhrY1nYFnB/lQPb79drWOyJVa/DAvg9B/rLB4cC+Nqgdz/TvBbBnr6GBReqn/nRmDgaQEej7WhonozjF+Y2I/fZou/qAAAAAElFTkSuQmCC); 
-    display: inline-block; 
-    height: 2.75rem; 
-    margin: 0 auto -2.75rem; 
-    position: relative; 
-    top: -1.375rem; 
-    width: 2.75rem;
-    clear: both;
-}
-
-#insta-3d {
-    background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAAGFBMVEUiIiI9PT0eHh4gIB4hIBkcHBwcHBwcHBydr+JQAAAACHRSTlMABA4YHyQsM5jtaMwAAADfSURBVDjL7ZVBEgMhCAQBAf//42xcNbpAqakcM0ftUmFAAIBE81IqBJdS3lS6zs3bIpB9WED3YYXFPmHRfT8sgyrCP1x8uEUxLMzNWElFOYCV6mHWWwMzdPEKHlhLw7NWJqkHc4uIZphavDzA2JPzUDsBZziNae2S6owH8xPmX8G7zzgKEOPUoYHvGz1TBCxMkd3kwNVbU0gKHkx+iZILf77IofhrY1nYFnB/lQPb79drWOyJVa/DAvg9B/rLB4cC+Nqgdz/TvBbBnr6GBReqn/nRmDgaQEej7WhonozjF+Y2I/fZou/qAAAAAElFTkSuQmCC); 
-    display: inline-block; 
-    height: 2.75rem; 
-    margin: 0 auto -2.75rem; 
-    position: relative; 
-    top: -1.375rem; 
-    width: 2.75rem;
-    clear: both;
-}
-
-.instagram-media p {
-    color:#c9c8cd; 
-    font-family: 'Source Sans Pro',sans-serif; 
-    font-size:0.875rem; 
-    line-height:1.063rem; 
-    margin-bottom:0; 
-    margin-top:0.5rem; 
-    overflow:hidden; 
-    padding:0.5rem 0 0.438rem; 
-    text-align:left: ; 
-    white-space:normal;
-}
-
-.instagram-media a {
-    color:#c9c8cd; 
-    font-family: 'Source Sans Pro',sans-serif; 
-    font-size:0.750rem; 
-    font-style:normal; 
-    font-weight:normal; 
-    line-height:0.875rem; 
-    text-decoration: none; 
-    overflow-wrap: break-word;
-}*/
-
 
 .contact-section {
     width: 80%;
@@ -447,6 +351,42 @@ footer img {
 }
 
 /*  ===========================================================
+    Animations
+    =========================================================== */
+
+#lara-face {
+    -webkit-animation: spin 1s linear 1;
+            animation: spin 1s linear 1;
+}
+
+@-webkit-keyframes spin {
+    0%      {
+        -webkit-transform:rotate(0deg); 
+        transform:rotate(0deg); 
+    }
+    25%     {
+        -webkit-transform:rotate(85deg);
+        transform:rotate(85deg);
+    }
+    75%     {
+        -webkit-transform:rotate(-85deg);
+        transform:rotate(-85deg);
+    }
+    100%    {
+        -webkit-transform:rotate(0deg);
+        transform:rotate(0deg); 
+    }
+}
+
+@keyframes spin {
+    0%      { -webkit-transform:rotate(0deg); transform:rotate(0deg); }
+    25%     { -webkit-transform:rotate(85deg); transform:rotate(85deg); }
+    75%     { -webkit-transform:rotate(-85deg); transform:rotate(-85deg); }
+    100%    { -webkit-transform:rotate(0deg); transform:rotate(0deg); }
+}
+
+
+/*  ===========================================================
     Responsive Styles
     =========================================================== */
 
@@ -475,7 +415,7 @@ footer img {
         margin-bottom: 0.958rem;
         border: 1px solid red;
     }
-    
+
     .contact-left, .contact-right {
         display: block;
         width: 100%;
