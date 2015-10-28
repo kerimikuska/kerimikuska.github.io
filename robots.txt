@@ -2,4 +2,8 @@
 
 # Allow crawling of all content
 User-agent: *
-Disallow: *
+Disallow: 
+
+#Hide images from Google Images
+User-agent: Googlebot-Image
+Disallow: /
