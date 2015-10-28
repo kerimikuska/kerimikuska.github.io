@@ -3,11 +3,11 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    keri mikuska -- developer? -- @kerimikuska
 
 # THANKS
 
-    <name>
+    awesome instructors: sarah holden & jeff belzer @ general assembly
 
 # TECHNOLOGY COLOPHON
 
