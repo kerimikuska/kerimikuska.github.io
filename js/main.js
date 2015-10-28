@@ -1,29 +1,41 @@
 // alert("keri's js file is working properly");
 
-//when someone clicks on "submit" button
-	//button moves down 1px to give effect of being pressed
-	//shadow moves to inset (maybe) (through .clicked-button class)
 
-// $('.submit').on('click', function () {
-// 	$('.submit').addClass('clicked-button');
-// });
+// Smooth scroll 
 
-
-// Smooth scroll this mother!
-
-// Do it when someone clicks a nav link
 $('nav a').on('click', function(e) {
-  // prevent the standard link operation on click
+ 
   e.preventDefault();
-  // use the href of the link to identify what
-  // section to scroll to
+  
   var thisTarget = $(this).attr('href');
-  // get that section's top offset
+  
   var targetOffset = $(thisTarget).offset().top;
-  // use jQuery.animate() to animate the body's
-  // scrollTop to the targetOffest
+ 
   $('body').animate({
+ 
     scrollTop: targetOffset - 95
+
   }, 900);
+
 });
 
+// konami code
+
+var kkeys = [], konami = "38,38,40,40,37,39,37,39,66,65";
+
+$(document).keydown(function(e) {
+
+  kkeys.push( e.keyCode );
+
+  if ( kkeys.toString().indexOf( konami ) >= 0 ) {
+
+    $(document).unbind('keydown',arguments.callee);
+    
+    window.location = "http://kerimikuska.com/404.html";
+
+    // do something awesome
+    // $("body").addClass("konami");
+  
+  }
+
+});
