@@ -31,7 +31,7 @@ $(document).keydown(function(e) {
 
     $(document).unbind('keydown',arguments.callee);
     
-    window.location = "http://kerimikuska.com/404.html";
+    window.location = "http://kerimikuska.github.io/404.html";
 
     // do something awesome
     // $("body").addClass("konami");
